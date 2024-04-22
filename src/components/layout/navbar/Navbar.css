@@ -17,6 +17,7 @@
 
 .containerLogo {
   display: flex;
+  text-decoration-line: none;
 }
 
 img {
@@ -25,11 +26,15 @@ img {
   margin-right: 5px;
 }
 
+.titulo {
+  color: aliceblue;
+}
+
 ul {
   display: flex;
 }
 
-ul li {
+ul a {
   list-style: none;
   margin: 0 30px;
 }
@@ -37,4 +42,25 @@ ul li {
 .btnMenu {
   color: aliceblue;
   text-decoration-line: none;
+  border-bottom: 1px solid transparent;
+}
+
+.btnMenu:hover {
+  border-bottom: 1px solid aliceblue;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.btnCategoria {
+  color: black;
+  text-decoration-line: none;
+  border-bottom: 1px solid transparent;
+}
+
+.btnCategoria:hover {
+  border-bottom: 1px solid black;
 }
