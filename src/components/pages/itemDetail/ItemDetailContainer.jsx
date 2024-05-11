@@ -19,8 +19,12 @@ const ItemDetailContainer = () => {
 
     }, [id] )
 
+    const onAdd = (cantidad) => {
+      
+    }
+
   return (
-    <ItemDetail item={item} />
+    <ItemDetail item={item} onAdd={onAdd} />
   )
 }
 

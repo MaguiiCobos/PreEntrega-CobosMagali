@@ -1,12 +1,14 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import CounterContainer from "../../coomon/counter/CounterContainer";
 
-const ItemDetail = ({ item }) => {
+const ItemDetail = ({ item, onAdd }) => {
   return (
     <div className="container">
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          sx={{ height: 230 }}
-          image={item.img}
+        <CardMedia 
+          component="img" 
+          sx={{ height: 230 }} 
+          image={item.img} 
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -19,6 +21,8 @@ const ItemDetail = ({ item }) => {
             {item.precio}
           </Typography>
         </CardContent>
+
+        <CounterContainer stock={item.stock} onAdd={onAdd} />
       </Card>
     </div>
   );

@@ -1,9 +1,9 @@
-import React from 'react'
+import "../footer/Footer.css";
 
-function Footer () {
+function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="divFooter">
+      <h5>Hecho por Magalí Cobos</h5>
     </div>
   );
 }
