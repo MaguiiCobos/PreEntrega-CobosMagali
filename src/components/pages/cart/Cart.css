@@ -1,0 +1,45 @@
+.divCursoCart {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(233, 233, 233);
+  padding: 20px 5px;
+  margin-top: 2px;
+}
+
+h4,
+h5 {
+  color: black;
+}
+
+.btnEliminar {
+  font-size: 15px;
+  width: 70px;
+  background-color: rgb(71, 71, 71);
+}
+
+.btnLimpiar {
+  margin: 10px 5px;
+  width: auto;
+  color: rgb(151, 52, 197);
+  border: 1px solid rgb(151, 52, 197);
+  transition: 0.5s;
+}
+
+.btnLimpiar:hover {
+  color: rgb(71, 71, 71);
+  border: 1px solid rgb(71, 71, 71);
+}
+
+.btnComprar {
+  margin: 10px 5px;
+  background-color: rgb(151, 52, 197);
+  width: auto;
+  color: aliceblue;
+  border: 1px solid rgb(151, 52, 197);
+  transition: 0.5s;
+}
+
+.btnComprar:hover {
+  background-color: rgb(71, 71, 71);
+  border: 1px solid rgb(71, 71, 71);
+}

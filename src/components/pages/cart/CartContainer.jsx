@@ -1,10 +1,19 @@
-import Cart from "./Cart"
+import { useContext } from "react";
+import Cart from "./Cart";
+import { CartContext } from "../../../context/CartContex";
 
 const CartContainer = () => {
+  const { cart, limpiarCarrito, eliminarPorId, precioTotal } =
+    useContext(CartContext);
+  let total = precioTotal();
+  return (
+    <Cart
+      cart={cart}
+      limpiarCarrito={limpiarCarrito}
+      eliminarPorId={eliminarPorId}
+      total={total}
+    />
+  );
+};
 
-    // este va a contener toda la parte logica y solo va a llamar a <Cart/> q es la parte de html
-
-  return <Cart />
-}
-
-export default CartContainer
+export default CartContainer;

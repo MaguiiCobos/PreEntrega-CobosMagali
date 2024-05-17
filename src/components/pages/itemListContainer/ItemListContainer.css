@@ -1,5 +1,11 @@
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.divLoader {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

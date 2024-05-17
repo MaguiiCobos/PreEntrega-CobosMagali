@@ -1,18 +1,5 @@
 export let cursos = [
-  /* PROGRAMACION */
   {
-    id: 1,
-    titulo: "Python",
-    precio: 50000,
-    stock: 15,
-    duracion: "4 semanas",
-    descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    profesor: "Franco Andrade",
-    categoria: "programacion",
-    img: "../public/imgCurso.jpg",
-  },
-  {
-    id: 2,
     titulo: "Unreal Engine",
     precio: 60000,
     stock: 10,
@@ -22,8 +9,8 @@ export let cursos = [
     categoria: "programacion",
     img: "../public/imgCurso.jpg",
   },
+
   {
-    id: 3,
     titulo: "Html y Css",
     precio: 40000,
     stock: 20,
@@ -33,21 +20,8 @@ export let cursos = [
     categoria: "programacion",
     img: "../public/imgCurso.jpg",
   },
-
-  /* IDIOMAS */
+  
   {
-    id: 4,
-    titulo: "Inglés",
-    precio: 10000,
-    stock: 15,
-    duracion: "3 semanas",
-    descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    profesor: "Gabriel Romero",
-    categoria: "idiomas",
-    img: "../public/imgCurso.jpg",
-  },
-  {
-    id: 5,
     titulo: "Francés",
     precio: 15000,
     stock: 10,
@@ -58,9 +32,7 @@ export let cursos = [
     img: "../public/imgCurso.jpg",
   },
 
-  /* DIBUJO */
   {
-    id: 6,
     titulo: "Dibujo Digital",
     precio: 25000,
     stock: 7,
@@ -71,9 +43,7 @@ export let cursos = [
     img: "../public/imgCurso.jpg",
   },
 
-  /* MARKETING */
   {
-    id: 7,
     titulo: "Marketing Digital",
     precio: 30000,
     stock: 10,
@@ -84,9 +54,7 @@ export let cursos = [
     img: "../public/imgCurso.jpg",
   },
 
-  /* COSTURA */
   {
-    id: 8,
     titulo: "Costura",
     precio: 10000,
     stock: 5,

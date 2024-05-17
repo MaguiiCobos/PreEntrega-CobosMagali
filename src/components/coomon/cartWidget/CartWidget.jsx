@@ -1,12 +1,16 @@
-import LocalMallIcon from '@mui/icons-material/LocalMall';
-import Badge from '@mui/material/Badge';
+import LocalMallIcon from "@mui/icons-material/LocalMall";
+import Badge from "@mui/material/Badge";
+import { useContext } from "react";
+import { CartContext } from "../../../context/CartContex";
 
 const CartWidget = () => {
+  const {totalItems} = useContext(CartContext);
+  let total = totalItems()
+
   return (
-    <Badge badgeContent={0} color="secondary" showZero>
-        <LocalMallIcon />
+    <Badge badgeContent={total} color="secondary" showZero>
+      <LocalMallIcon />
     </Badge>
-    
   );
 };
 
